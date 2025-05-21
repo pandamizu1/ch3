@@ -21,3 +21,5 @@ const ThemeToggle = () => {
     </motion.button>
   );
 };
+
+export default ThemeToggle
