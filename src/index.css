@@ -8,7 +8,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-semibold tracking-tight;
+    @apply font-semibold tracking-tight dark:text-white;
   }
 }
 
@@ -38,7 +38,8 @@
   }
   
   .card {
-    @apply rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-lg dark:bg-gray-800 dark:border dark:border-gray-700;
+    @apply rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-lg 
+           bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700;
   }
   
   .nav-link {
